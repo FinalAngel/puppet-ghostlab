@@ -1,9 +1,9 @@
-# Skype Puppet Module for Boxen
+# Ghostlab Puppet Module for Boxen
 
 ## Usage
 
 ```puppet
-include skype 
+include ghostlab
 ```
 
 ## Required Puppet Modules

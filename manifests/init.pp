@@ -1,11 +1,11 @@
-# Public: Install Skype.app to /Applications.
+# Public: Install Ghostlab.app to /Applications.
 #
 # Examples
 #
-#   include skype
-class skype {
-  package { 'Skype':
+#   include ghostlab
+class ghostlab {
+  package { 'Ghostlab':
     provider => 'appdmg',
-    source   => 'http://www.skype.com/go/getskype-macosx.dmg',
+    source   => 'http://awesome.vanamco.com/downloads/ghostlab/latest/Ghostlab.dmg',
   }
 }
